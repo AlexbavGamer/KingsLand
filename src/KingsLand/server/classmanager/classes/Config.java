@@ -23,7 +23,7 @@ public class Config extends FileManager
 		SetValue("commands.inviteCmd", "duelar");
 		SetValue("commands.saveinv", "salvarinv");
 		SetValue("commands.loadinv", "carregarinv");
-		SetValue("InvalidParam","%prefix% Não é possivel achar o resultado de %arg-0%");
+		SetValue("InvalidParam","%prefix% Não é possivel achar o resultado de {0}");
 		
 		//Messages of Player of /pvp command
 		SetValue("config.messages.saveinv.usage", "%prefix% use: /%cmd% %saveinv% [Player]");

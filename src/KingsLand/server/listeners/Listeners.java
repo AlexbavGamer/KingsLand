@@ -87,7 +87,6 @@ public class Listeners implements Listener
 		PermissionUser user = PermissionsEx.getUser(p);
 		
 		if(user.getPrefix() == null) { return; }
-		
 		String Result = Solver(user.getPrefix());
 		
 		p.setCustomName(Result + " - " + p.getName());
