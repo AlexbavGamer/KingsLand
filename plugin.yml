@@ -1,0 +1,14 @@
+ name: KingsLand
+ version: 0.0.1
+ description: Plugin do Servidor
+ # We could place every author in the authors list, but chose not to for illustrative purposes
+ # Also, having an author distinguishes that person as the project lead, and ensures their 
+ # name is displayed first
+ author: AlexbavGamer
+ depend: [Vault,PermissionsEx]
+ main: KingsLand.server.Main
+ 
+ commands:
+   pvp:
+     description: Main command.
+     permission: kingsland.pvp
