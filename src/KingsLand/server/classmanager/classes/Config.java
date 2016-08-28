@@ -28,8 +28,10 @@ public class Config extends FileManager
 		//Messages of Player of /pvp command
 		SetValue("config.messages.saveinv.usage", "%prefix% use: /%cmd% %saveinv% [Player]");
 		SetValue("config.messages.loadinv.usage", "%prefix% use: /%cmd% %loadinv% [Player]");
+		
 		SetValue("config.messages.saveinv.error", "%prefix% [Failed to Save] - Jogador {1} não esta online.");
 		SetValue("config.messages.loadinv.error", "%prefix% [Failed to Load] - Jogador {1} não esta online.");
+		
 		SetValue("config.messages.loadinv.success", "%prefix% [Save] - Inventorio do Jogador {1} foi carregado.");
 		SetValue("config.messages.saveinv.success", "%prefix% [Save] - Inventorio do Jogador {1} foi salvo.");
 		
