@@ -25,6 +25,7 @@ public class Config extends FileManager
 		SetValue("commands.loadinv", "carregarinv");
 		SetValue("InvalidParam","%prefix% Não é possivel achar o resultado de {0}");
 		
+		
 		//Messages of Player of /pvp command
 		SetValue("config.messages.saveinv.usage", "%prefix% use: /%cmd% %saveinv% [Player]");
 		SetValue("config.messages.loadinv.usage", "%prefix% use: /%cmd% %loadinv% [Player]");
