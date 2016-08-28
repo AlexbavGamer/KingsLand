@@ -25,7 +25,6 @@ public class Config extends FileManager
 		SetValue("commands.loadinv", "carregarinv");
 		SetValue("InvalidParam","%prefix% Não é possivel achar o resultado de {0}");
 		
-		
 		//Messages of Player of /pvp command
 		SetValue("config.messages.saveinv.usage", "%prefix% use: /%cmd% %saveinv% [Player]");
 		SetValue("config.messages.loadinv.usage", "%prefix% use: /%cmd% %loadinv% [Player]");
@@ -33,10 +32,16 @@ public class Config extends FileManager
 		SetValue("config.messages.loadinv.error", "%prefix% [Failed to Load] - Jogador {1} não esta online.");
 		SetValue("config.messages.loadinv.success", "%prefix% [Save] - Inventorio do Jogador {1} foi carregado.");
 		SetValue("config.messages.saveinv.success", "%prefix% [Save] - Inventorio do Jogador {1} foi salvo.");
-		SetValue("config.messages.accept.error","%prefix% Somente {1} podera aceitar o convite de duelo.");
+		
+		SetValue("config.messages.accept.error","%prefix% Somente %target% podera aceitar o convite de duelo.");
 		SetValue("config.messages.accept.accepted", "%prefix% Você aceitou o pedido de duelo de %sender%.");
+		
+		SetValue("config.messages.deny.success", "%prefix% você recusou o pedido de duelo de %target%");
+		SetValue("config.messages.deny.deny","%prefix% %target% recusou o seu pedido de duelo");
+		SetValue("config.messages.deny.error","%prefix% você não tem nenhum convite de duelo para recusar.");
 		SetValue("config.messages.accept.acceptedtarget", "%prefix% %target% aceitou o seu pedido de duelo.");
 		SetValue("config.messages.accept.noconvited", "%prefix% você não tem nenhum convite de duelo para aceitar.");
+		
 		SetValue("config.messages.invite.send.1", "%prefix% -> &cPedido de &6Duelo&c Recebido");
 		SetValue("config.messages.invite.send.2", "%prefix% -> &cDesafiante: %player%");
 		SetValue("config.messages.invite.send.3", "%prefix% -> &cAposta: %bet%");

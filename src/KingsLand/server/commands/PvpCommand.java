@@ -115,15 +115,15 @@ public class PvpCommand extends CommandModule
 				{
 					if(GetTargetBySender(getPlayer()) != null)
 					{
-						sender.sendMessage(solver("%prefix% você recusou o pedido de duelo de %player%",null));
-						GetTargetBySender(getPlayer()).sendMessage(solver("%prefix% %target% recusou o seu pedido de duelo",null));
+						sender.sendMessage(solver(Config.FileConfig.getString("config.messages.deny.deny"),null));
+						GetTargetBySender(getPlayer()).sendMessage(solver(Config.FileConfig.getString("config.messages.deny.denyed"),null));
 						InPvp.remove(GetTargetBySender(getPlayer()));
 						InPvp.remove(getPlayer());
 					}
 				}
 				else
 				{
-					sender.sendMessage(solver("%prefix% você não tem nenhum convite de duelo para recusar.",null));
+					sender.sendMessage(solver(Config.FileConfig.getString("config.messages.deny.error"),null));
 				}
 			}
 			else if(args[0].equalsIgnoreCase(solver("%cancel%",null)))
