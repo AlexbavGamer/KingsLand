@@ -36,8 +36,8 @@ public class Config extends FileManager
 		SetValue("config.messages.accept.error","%prefix% Somente %target% podera aceitar o convite de duelo.");
 		SetValue("config.messages.accept.accepted", "%prefix% Você aceitou o pedido de duelo de %sender%.");
 		
-		SetValue("config.messages.deny.success", "%prefix% você recusou o pedido de duelo de %target%");
-		SetValue("config.messages.deny.deny","%prefix% %target% recusou o seu pedido de duelo");
+		SetValue("config.messages.deny.deny", "%prefix% você recusou o pedido de duelo de %target%");
+		SetValue("config.messages.deny.denyed","%prefix% %target% recusou o seu pedido de duelo");
 		SetValue("config.messages.deny.error","%prefix% você não tem nenhum convite de duelo para recusar.");
 		SetValue("config.messages.accept.acceptedtarget", "%prefix% %target% aceitou o seu pedido de duelo.");
 		SetValue("config.messages.accept.noconvited", "%prefix% você não tem nenhum convite de duelo para aceitar.");
